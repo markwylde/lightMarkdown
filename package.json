@@ -1,6 +1,6 @@
 {
   "name": "light-markdown",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Javascript library that helps you convert simplified markdown (like used in Slack messages) to HTML",
   "main": "dist/light-markdown.js",
   "scripts": {
