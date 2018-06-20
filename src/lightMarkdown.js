@@ -222,7 +222,7 @@ function getRegex(tokens) {
     var singleLineBreakRegex = /\r?\n\r?/g;
 
     // Url
-    var urlRegex = /(\(?((https?:\/\/|ftp:\/\/).*?[a-z\u00a1-\uffff_\/0-9\-\#=._~:/?+,;=@()[\]&])(?=(\.|,|;|\?|\!)?("|'|«|»|\&gt\;|\<|>|\[|\s|\r|\n|$)))/gi;
+    var urlRegex = /(\(?((https?:\/\/|ftp:\/\/).*?[a-z\u00a1-\uffff_\/0-9\-\#=._~:/?+,;=@()[\]&])(?=(\.|,|;|\?|\!)?("|'|«|»|\&gt\;|<|>|\[|\s|\r|\n|$)))/gi;
 
     return {
         nonTokensChars: nonTokensCharsRegex,
