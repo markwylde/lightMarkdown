@@ -1,23 +1,12 @@
-# lightMarkdown
+# littlemarkdown
 
-[![npm version](https://badge.fury.io/js/light-markdown.svg)](http://badge.fury.io/js/light-markdown) [![Bower version](https://badge.fury.io/bo/light-markdown.svg)](http://badge.fury.io/bo/light-markdown)
-
-------
-Javascript library that helps you convert simplified markdown (like used in Slack messages) to HTML
+Javascript library that helps you convert simplified markdown to HTML
 
 ## Installation
 
-### Download tarball
-
-You can download the latest release tarball directly from [releases][releases]
-
-### Bower
-
-    bower install light-markdown
-
 ### npm (server-side)
 
-    npm install light-markdown
+    npm install littlemarkdown
 
 ### CDN
 
@@ -25,23 +14,23 @@ You can also use one of several CDNs available:
 
 * github CDN
 
-        https://cdn.rawgit.com/Tonkean/lightMarkdown/<version tag>/dist/light-markdown.min.js
+        https://cdn.rawgit.com/Tonkean/lightMarkdown/<version tag>/dist/littlemarkdown.min.js
 
 ## Quick Example
 
 ### Node
 
 ```js
-    var light-markdown  = require('light-markdown');
-    var text = 'This should be *bold*';
-    var html = light-markdown.toHtml(text);
+const littlemarkdown  = require('littlemarkdown');
+const text = 'This should be *bold*';
+const html = littlemarkdown(text);
 ```
 
 ### Browser
 
 ```js
-    var text = 'This should be *bold*';
-    var html = light-markdown.toHtml(text);
+const text = 'This should be *bold*';
+const html = littlemarkdown(text);
 ```
 
 ### Output 

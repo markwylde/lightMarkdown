@@ -1,10 +1,10 @@
 {
-  "name": "light-markdown",
-  "version": "0.1.4",
+  "name": "littlemarkdown",
+  "version": "1.0.0",
   "description": "Javascript library that helps you convert simplified markdown (like used in Slack messages) to HTML",
-  "main": "dist/light-markdown.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -22,19 +22,6 @@
   },
   "homepage": "https://github.com/Tonkean/lightMarkdown#readme",
   "devDependencies": {
-    "chai": "^1.10.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-uglify": "^0.6.0",
-    "grunt-conventional-changelog": "^6.1.0",
-    "grunt-conventional-github-releaser": "^1.0.0",
-    "grunt-endline": "^0.4.0",
-    "grunt-simple-mocha": "^0.4.0",
-    "js-beautify": "^1.5.6",
-    "load-grunt-tasks": "^3.2.0",
-    "semver": "^5.0.0",
-    "sinon": "^1.14.1"
+    "basictap": "^1.1.11"
   }
 }
